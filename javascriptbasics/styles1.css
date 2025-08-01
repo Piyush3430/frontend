@@ -1,0 +1,27 @@
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+}
+.container{
+    display: flex;
+    background-color: aqua;
+    
+    
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   
+    flex-direction: column;
+   
+    
+    
+}
+.counter{
+    border: 1px solid black;
+    display: flex;
+    gap: 30px;
+    
+}

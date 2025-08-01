@@ -1,0 +1,38 @@
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+   overflow-y: auto;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,blue,aqua);
+    
+    margin-bottom: 500px;
+}
+.weatheropt{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.characterstics{
+    display: flex;
+    gap: 30px;
+}
+.clouds{
+    display: flex;
+    flex-direction: column;
+    min-width: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
