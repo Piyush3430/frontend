@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    /* gap: 10px; */
+
+}
+.cock{
+    background-color: aqua;
+    border: 1px solid brown;
+    /* flex-grow: 1; */
+    /* flex-grow is used here to make size of all flex items same */
+
+}
+#box1{
+    order:1;
+    /* flex-grow: 1; */
+    /* flex grow is used here to only increase size of box1 */
+    flex-basis: 100px;
+}
+#box2{
+    order:8;
+    flex-shrink: 2;
+}
+#box3{
+    order: 4;
+    flex-shrink: 4;
+}

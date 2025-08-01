@@ -1,0 +1,16 @@
+.container{
+    height: 500px;
+
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.box{
+
+    border: 1px solid green;
+    background-color: aqua;
+
+    
+}

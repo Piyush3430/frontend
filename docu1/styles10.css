@@ -1,0 +1,14 @@
+.container{
+    height: 700px;
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 30px 150px 400px 20px;
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+.box{
+    background-color: aqua;
+    border: 1px solid green;
+    
+}

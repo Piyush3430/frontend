@@ -1,0 +1,29 @@
+.container{
+    background-color: brown;
+    height: 500px;
+    border:3px solid black;
+    display: grid;
+     grid-template-columns: 200px ; 
+    /*  this property is used to create columns  of given sizes and then palce the boxes in them */
+     grid-template-rows: 90px 90px 90px 90px; 
+    /*  this property is used to create rows of given sizes and then palce the boxes in them */
+    /* grid-template-columns: 150px 1fr  150px;
+    grid-template-rows: 30px 1fr  30px; */
+    gap: 3px;
+}
+.box{
+     width: 80px; 
+     height: 80px; 
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+/* #box1,#box4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+} */
+/* #box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+} */
+

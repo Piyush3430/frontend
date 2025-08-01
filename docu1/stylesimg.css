@@ -1,0 +1,54 @@
+.firstcontainer{
+    width: 100vw;
+    height: 100vh;
+     display: flex;
+
+    justify-content: center;
+    align-content: space-between; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+     display: flex;
+
+    justify-content: center;
+    align-content: space-between; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+
+}
+h3{
+    text-align: center;
+}
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    height: 30%;
+    gap: 10px;
+}
+ .secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 30%;
+    gap: 10px;
+
+} 
+.thirdrow
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    height: 30%;
+    gap: 10px;
+
+}

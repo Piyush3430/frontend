@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+h1{
+
+    color: black;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 170px 1fr 1fr 1fr 170px;
+    grid-template-rows: 6;
+}
+.box{
+    box-sizing: border-box;
+    align-content: center;
+}
+#box1
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 170px;
+    
+}
+#box2{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    height: 640px;
+}
+#box3{
+    grid-row-start: 2;
+    grid-row-end: 6;
+    height: 640px;
+
+    
+}
+img{
+    object-fit: cover;
+}

@@ -1,0 +1,41 @@
+
+.conatiner{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 0 auto;
+   
+    
+    justify-content: center;
+    /* align-items: center; */
+    
+    
+
+}
+/* t: 100%;
+    max-width: 600px;
+    flex-wrap:.rap;
+   wrapper{
+    margin: 0 auto;
+    heigh w */
+
+
+.box{
+    
+    width: 25%;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+
+}
+h2{
+    color: black;
+
+}
+h3{
+    color: grey;
+}

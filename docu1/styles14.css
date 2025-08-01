@@ -1,0 +1,19 @@
+
+.box{
+    border: 1px  solid black;
+    /* accomodates the overflown data */
+    /* min-height: 200px;
+    min-width: 200px; */
+
+    /* allows data to obverflow */
+    max-height: 100px;
+    min-height: 100px;
+
+ /* to check for overflow */
+     overflow: scroll; 
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+
+
+}

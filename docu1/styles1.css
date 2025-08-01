@@ -1,0 +1,74 @@
+.cock{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    background-image: linear-gradient(Red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(Red,blue,green);
+}
+.shoot{
+    border: 1px solid black;
+    height: 200px;
+    width:150px;
+    background-image: radial-gradient(circle,red,blue,yellow);
+    
+}
+h1{
+    text-shadow: 3px 3px 3px red;
+    
+}
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 10px green;
+}
+#mydiv
+{
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+.land{
+    border: 1px solid black;
+    min-height: 100px;
+    overflow: scroll;
+}
+#flood{
+    border: 1px solid black;
+    height: 50px;
+    overflow: auto;
+}
+.crox{
+    background-color: aqua;
+    /* transform:translate(100px,50px); */
+     /* transform: rotate(-45deg);  */
+    margin: 200px;
+     /* transform: scale(2,5); */
+     transform: scaleX(2);
+     transform: scaleY(4);
+     transform: skew(45deg);
+    
+
+
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+   
+}
+.translated{
+    transform: perspective(15px); 
+    transform: translateX(-10px);    
+    
+}
+ .scale{  
+     /* transform: perspective(350px);   
+    transform:rotateZ(6);  
+     transform: rotateZ(45deg); 
+   */
+margin-left: 200px;
+transform: rotateZ('45');
+ }

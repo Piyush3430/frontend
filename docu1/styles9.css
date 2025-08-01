@@ -1,0 +1,19 @@
+.container{
+    height:700px;
+    border: 1px solid red;
+    background-color:yellow;
+    display: grid;
+    grid-template-columns: repeat(3 fr);
+    grid-template-rows: repeat(4,fr);
+    gap: 10px;
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    /* height: 100px; */
+    /* width: 100px; */
+}
+#box1{
+    grid-area: 1/1/4/3;
+    /* grid-area:row-start/column-start/row-end/column-end */
+}
